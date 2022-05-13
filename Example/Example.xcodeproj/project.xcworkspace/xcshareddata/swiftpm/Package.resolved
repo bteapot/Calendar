@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "InfiniteScrollView",
+        "repositoryURL": "https://github.com/bteapot/InfiniteScrollView.git",
+        "state": {
+          "branch": null,
+          "revision": "879a3078812e738deabb2972f452ea56ebab5d73",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "ReactiveCocoa",
+        "repositoryURL": "https://github.com/ReactiveCocoa/ReactiveCocoa.git",
+        "state": {
+          "branch": null,
+          "revision": "8a5b07b18c6abb8e12fb845bf742675dc4914ed8",
+          "version": "12.0.0"
+        }
+      },
+      {
+        "package": "ReactiveSwift",
+        "repositoryURL": "https://github.com/ReactiveCocoa/ReactiveSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "efb2f0a6f6c8739cce8fb14148a5bd3c83f2f91d",
+          "version": "7.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
