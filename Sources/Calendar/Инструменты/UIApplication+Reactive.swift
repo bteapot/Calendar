@@ -12,7 +12,7 @@ import ReactiveCocoa
 
 
 extension Reactive where Base: UIApplication {
-    public var isActive: Property<Bool> {
+    var isActive: Property<Bool> {
         return .init(
             initial: self.base.applicationState == .active,
             then: Signal

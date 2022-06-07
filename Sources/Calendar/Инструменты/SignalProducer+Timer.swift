@@ -21,7 +21,7 @@ extension SignalProducer where Value == Date, Error == Never {
     /// - precondition: Вызов функции должен быть выполнен из главного потока, так как используется API `UIApplication`.
     ///
     /// - returns: Продюсер, присылающий `Date` каждые `interval` секунд, если приложение активно.
-    public static func autopausedTimer(
+    static func autopausedTimer(
         after: Date? = nil,
         interval: Int,
         on scheduler: QueueScheduler

@@ -9,7 +9,7 @@ import CoreGraphics
 import UIKit
 
 
-public extension CGSize {
+extension CGSize {
     static func square(_ side: CGFloat) -> CGSize {
         return CGSize(width: side, height: side)
     }

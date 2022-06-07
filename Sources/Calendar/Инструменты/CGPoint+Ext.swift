@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 
-public extension CGPoint {
+extension CGPoint {
     func floored() -> CGPoint {
         return CGPoint(x: floor(self.x), y: floor(self.y))
     }
@@ -39,7 +39,7 @@ public extension CGPoint {
     }
 }
 
-public extension CGPoint {
+extension CGPoint {
     static func + (lhs: CGPoint, rhs: CGVector) -> CGPoint {
         return CGPoint(x: lhs.x + rhs.dx, y: lhs.y + rhs.dy)
     }

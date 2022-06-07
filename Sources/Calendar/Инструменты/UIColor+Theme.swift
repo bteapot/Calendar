@@ -8,7 +8,7 @@
 import UIKit
 
 
-public extension UIColor {
+extension UIColor {
     convenience init(light: UIColor, dark:  UIColor) {
         self.init(dynamicProvider: { (provider: UITraitCollection) -> UIColor in
             switch provider.userInterfaceStyle {

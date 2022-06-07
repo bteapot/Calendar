@@ -8,7 +8,7 @@
 import UIKit
 
 
-public extension UIEdgeInsets {
+extension UIEdgeInsets {
 	init(
         all:    CGFloat = 0,
         top:    CGFloat? = nil,

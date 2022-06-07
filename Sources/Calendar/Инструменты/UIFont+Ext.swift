@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 
-public extension UIFont {
+extension UIFont {
     func with(traits: UIFontDescriptor.SymbolicTraits) -> UIFont {
         if let fontDescriptor = self.fontDescriptor.withSymbolicTraits(traits) {
             return UIFont(descriptor: fontDescriptor, size: self.pointSize)

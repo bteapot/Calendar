@@ -88,7 +88,7 @@ extension PlaceholderVC {
                             .frame(minHeight: 16)
                     }
                     .frame(width: geometry.size.width)
-                    .frame(minHeight: geometry.size.height - geometry.safeAreaInsets.vertical)
+                    .frame(minHeight: geometry.size.height - geometry.safeAreaInsets.top - geometry.safeAreaInsets.bottom)
                 }
             }
             .animation(.default, value: self.isExecuting)

@@ -9,7 +9,7 @@ import CoreGraphics
 import UIKit
 
 
-public extension CGRect {
+extension CGRect {
     func floored() -> CGRect {
         CGRect(
             x:      ceil(self.minX),

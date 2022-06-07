@@ -8,7 +8,7 @@
 import CoreGraphics
 
 
-public extension CGFloat {
+extension CGFloat {
     func floored() -> CGFloat {
         return floor(self)
     }

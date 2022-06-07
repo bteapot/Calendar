@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 
-public extension CALayer {
+extension CALayer {
     func shiftAnchorPoint(to new: CGPoint) {
         let old: CGPoint = self.anchorPoint
         self.anchorPoint = new

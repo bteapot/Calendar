@@ -8,7 +8,7 @@
 import CoreGraphics
 
 
-public extension CGColor {
+extension CGColor {
     var white: CGFloat {
         let rgb = self.converted(to: CGColorSpaceCreateDeviceRGB(), intent: .defaultIntent, options: nil)
         
