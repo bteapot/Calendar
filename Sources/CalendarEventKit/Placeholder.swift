@@ -100,8 +100,6 @@ extension PlaceholderVC.PlaceholderView {
     struct ActionButton {
         let title: String
         let color: Color
-        
-        @MainActor
         let action: () async -> Void
     }
 }

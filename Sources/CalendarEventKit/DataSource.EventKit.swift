@@ -246,7 +246,7 @@ extension CalendarVC.DataSource {
                                     if  let url = await URL(string: UIApplication.openSettingsURLString),
                                         await UIApplication.shared.canOpenURL(url) == true
                                     {
-                                        await UIApplication.shared.open(url)
+                                        _ = await UIApplication.shared.open(url)
                                     }
                                 }
                             )
